@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Android Extensions</string>
     <string name="home_imageviewextensions_button">ImageViewExtensions</string>
+    <string name="imageviews_loadimagefromurl_button">loadImageFromUrl</string>
 </resources>
