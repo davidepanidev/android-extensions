@@ -1,7 +1,6 @@
-package com.davidepani.androidextensions.base
+package com.davidepani.androidextensions.tests
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.davidepani.androidextensions.rules.TestCoroutineRule
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.TestCoroutineScope
 import kotlinx.coroutines.test.runBlockingTest
