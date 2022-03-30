@@ -1,4 +1,4 @@
-package com.davidepani.androidextensions.rules
+package com.davidepani.androidextensions.tests
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
