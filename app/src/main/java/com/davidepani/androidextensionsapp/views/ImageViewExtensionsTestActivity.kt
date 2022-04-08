@@ -2,6 +2,7 @@ package com.davidepani.androidextensionsapp.views
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.davidepani.androidextensions.utils.imageloader.GlideImageLoader
 import com.davidepani.androidextensions.views.loadImageFromUrl
 import com.davidepani.androidextensionsapp.databinding.ActivityImageViewExtensionsTestBinding
 
@@ -28,7 +29,10 @@ class ImageViewExtensionsTestActivity : AppCompatActivity() {
     }
 
     private fun testLoadImageFromUrl() {
-        binding.ivTest.loadImageFromUrl("https://bitcoin.org/img/icons/opengraph.png?1644775669")
+        binding.ivTest.loadImageFromUrl(
+            url = "https://bitcoin.org/img/icons/opengraph.png?1644775669",
+            imageLoader = GlideImageLoader()
+        )
     }
 
 }

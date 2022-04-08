@@ -1,14 +1,13 @@
 package com.davidepani.androidextensions.views
 
 import android.widget.ImageView
-import com.bumptech.glide.Glide
+import com.davidepani.androidextensions.utils.imageloader.ImageLoader
 
 
-fun ImageView.loadImageFromUrl(url: String) {
-    Glide.with(this.context).apply {
-        clear(this@loadImageFromUrl)
-        load(url)
-            .centerCrop()
-            .into(this@loadImageFromUrl)
-    }
+fun ImageView.loadImageFromUrl(url: String, imageLoader: ImageLoader) {
+    imageLoader.loadImageFromUrlIntoImageView(
+        imageUrl = url,
+        imageView = this,
+        context = this.context
+    )
 }
