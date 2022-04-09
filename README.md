@@ -1,2 +1,2 @@
-# android-extensions
-Library containing some helper extension functions of the Android framework components.
+# Android Extensions
+Library containing some helper functions and extensions of the Android framework components.
