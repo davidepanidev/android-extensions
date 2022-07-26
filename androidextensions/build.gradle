@@ -35,6 +35,12 @@ android {
         }
     }
 
+    lintOptions {
+        checkAllWarnings true
+        warningsAsErrors true
+        checkReleaseBuilds true
+    }
+
 }
 
 dependencies {
