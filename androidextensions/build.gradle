@@ -35,19 +35,19 @@ android {
             withSourcesJar()
         }
     }
-
-    lintOptions {
-        checkAllWarnings true
-        warningsAsErrors true
+    lint {
         abortOnError true
+        checkAllWarnings true
         checkReleaseBuilds true
+        warningsAsErrors true
     }
+
 
 }
 
 dependencies {
 
-    implementation "com.github.davide-pani:kotlin-extensions:1.5.1"
+    implementation "com.github.davidepanidev:kotlin-extensions:2.0"
 
     implementation "com.github.bumptech.glide:glide:4.11.0"
 
@@ -65,9 +65,9 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.davide-pani'
+                groupId = 'com.github.davidepanidev'
                 artifactId = 'android-extensions'
-                version = '1.2.4'
+                version = '2.0'
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.davidepani.androidextensions.text
+package com.github.davidepanidev.androidextensions.text
 
 import android.os.Build
 import android.text.Html

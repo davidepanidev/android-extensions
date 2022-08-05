@@ -1,7 +1,7 @@
-package com.davidepani.androidextensions.tests
+package com.github.davidepanidev.androidextensions.tests
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.davidepani.kotlinextensions.utils.test.BaseCoroutineTestWithTestDispatcherProvider
+import com.github.davidepanidev.kotlinextensions.utils.test.BaseCoroutineTestWithTestDispatcherProvider
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.TestDispatcher
 import org.junit.Rule

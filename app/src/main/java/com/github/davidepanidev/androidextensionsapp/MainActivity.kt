@@ -1,10 +1,10 @@
-package com.davidepani.androidextensionsapp
+package com.github.davidepanidev.androidextensionsapp
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.davidepani.androidextensionsapp.databinding.ActivityMainBinding
-import com.davidepani.androidextensionsapp.views.ImageViewExtensionsTestActivity
+import com.github.davidepanidev.androidextensionsapp.databinding.ActivityMainBinding
+import com.github.davidepanidev.androidextensionsapp.views.ImageViewExtensionsTestActivity
 
 class MainActivity : AppCompatActivity() {
 

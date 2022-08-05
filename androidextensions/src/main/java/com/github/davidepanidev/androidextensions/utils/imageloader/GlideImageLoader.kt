@@ -1,4 +1,4 @@
-package com.davidepani.androidextensions.utils.imageloader
+package com.github.davidepanidev.androidextensions.utils.imageloader
 
 import android.content.Context
 import android.widget.ImageView

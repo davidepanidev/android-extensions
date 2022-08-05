@@ -1,10 +1,10 @@
-package com.davidepani.androidextensionsapp.views
+package com.github.davidepanidev.androidextensionsapp.views
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.davidepani.androidextensions.utils.imageloader.GlideImageLoader
-import com.davidepani.androidextensions.views.loadImageFromUrl
-import com.davidepani.androidextensionsapp.databinding.ActivityImageViewExtensionsTestBinding
+import com.github.davidepanidev.androidextensions.utils.imageloader.GlideImageLoader
+import com.github.davidepanidev.androidextensions.views.loadImageFromUrl
+import com.github.davidepanidev.androidextensionsapp.databinding.ActivityImageViewExtensionsTestBinding
 
 
 class ImageViewExtensionsTestActivity : AppCompatActivity() {

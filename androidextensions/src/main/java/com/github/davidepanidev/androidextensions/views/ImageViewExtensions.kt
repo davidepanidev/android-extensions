@@ -1,7 +1,7 @@
-package com.davidepani.androidextensions.views
+package com.github.davidepanidev.androidextensions.views
 
 import android.widget.ImageView
-import com.davidepani.androidextensions.utils.imageloader.ImageLoader
+import com.github.davidepanidev.androidextensions.utils.imageloader.ImageLoader
 
 
 fun ImageView.loadImageFromUrl(url: String, imageLoader: ImageLoader) {
