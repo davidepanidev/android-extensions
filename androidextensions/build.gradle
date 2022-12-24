@@ -68,7 +68,7 @@ afterEvaluate {
 
                 groupId = 'com.github.davidepanidev'
                 artifactId = 'android-extensions'
-                version = '2.1'
+                version = '2.1.1'
             }
         }
     }
