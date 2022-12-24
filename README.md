@@ -25,6 +25,6 @@ Next, add the dependency below to your **module**'s `build.gradle` file:
 
 ```gradle
 dependencies {
-    implementation "com.github.davidepanidev:android-extensions:2.1"
+    implementation "com.github.davidepanidev:android-extensions:2.1.1"
 }
 ```
