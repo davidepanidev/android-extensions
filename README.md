@@ -1,6 +1,6 @@
 # Android Extensions
 
-[![Kotlin](https://img.shields.io/badge/kotlin-1.7.10-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/kotlin-1.7.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![Android](https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat)]()
 [![License](https://img.shields.io/github/license/davidepanidev/android-extensions?color=orange)]()
 [![Version](https://img.shields.io/jitpack/version/com.github.davidepanidev/android-extensions?color=red&label=JitPack)](https://jitpack.io/#davidepanidev/android-extensions)
