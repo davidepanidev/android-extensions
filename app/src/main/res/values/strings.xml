@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Android Extensions</string>
     <string name="home_imageviewextensions_button">ImageViewExtensions</string>
+    <string name="home_activityextensions_button">ActivityExtensions</string>
     <string name="imageviews_loadimagefromurl_button">loadImageFromUrl</string>
+    <string name="activityextensions_copytoclipblard_button">Copy to clipboard</string>
+    <string name="activityextensions_sendemail_button">Send email</string>
 </resources>

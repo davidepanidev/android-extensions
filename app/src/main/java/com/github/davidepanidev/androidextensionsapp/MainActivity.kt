@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.github.davidepanidev.androidextensionsapp.databinding.ActivityMainBinding
+import com.github.davidepanidev.androidextensionsapp.views.ActivityExtensionsTestActivity
 import com.github.davidepanidev.androidextensionsapp.views.ImageViewExtensionsTestActivity
 
 class MainActivity : AppCompatActivity() {
@@ -24,7 +25,17 @@ class MainActivity : AppCompatActivity() {
             btImageViewExtensions.setOnClickListener {
                 goToImageViewExtensionsTest()
             }
+
+            btActivityExtensions.setOnClickListener {
+                goToActivityExtensionsTest()
+            }
         }
+    }
+
+    private fun goToActivityExtensionsTest() {
+        startActivity(
+            Intent(this, ActivityExtensionsTestActivity::class.java)
+        )
     }
 
     private fun goToImageViewExtensionsTest() {

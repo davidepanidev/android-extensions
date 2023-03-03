@@ -10,9 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidExtensions">
+
         <activity
             android:name=".views.ImageViewExtensionsTestActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".views.ActivityExtensionsTestActivity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

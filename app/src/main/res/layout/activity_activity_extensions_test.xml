@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".views.ImageViewExtensionsTestActivity">
+
+    <Button
+        android:id="@+id/btCopyToClipboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityextensions_copytoclipblard_button"
+        android:layout_margin="@dimen/home_padding" />
+
+    <Button
+        android:id="@+id/btSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityextensions_sendemail_button"
+        android:layout_margin="@dimen/home_padding" />
+
+</LinearLayout>
