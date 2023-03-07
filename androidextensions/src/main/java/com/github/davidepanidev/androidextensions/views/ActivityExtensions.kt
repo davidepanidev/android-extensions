@@ -12,13 +12,16 @@ import com.google.android.material.snackbar.Snackbar
 import timber.log.Timber
 
 fun Activity.openUrlInExternalBrowser(url: String) {
-    val uri = Uri.parse(url)
-
-    startActivity(
-        Intent(Intent.ACTION_VIEW).apply {
-            data = uri
-        }
-    )
+    try {
+        startActivity(
+            Intent(Intent.ACTION_VIEW).apply {
+                data = Uri.parse(url)
+            }
+        )
+    } catch (e: Exception) {
+        Timber.e("openUrlInExternalBrowser EXCEPTION: $e")
+        showToast("You may not have an App to open this url.")
+    }
 }
 
 fun Activity.openAppInPlayStore(packageName: String) {
