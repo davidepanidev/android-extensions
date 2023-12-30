@@ -58,11 +58,13 @@ fun Activity.copyTextToClipboard(textToCopy: String) {
 fun Activity.openEmailInExternalApp(toEmailAddresses: Set<String>, subject: String? = null) {
     try {
         startActivity(
-            Intent(Intent.ACTION_SENDTO).apply {
-                data = Uri.parse("mailto:")
+            Intent(Intent.ACTION_SEND).apply {
                 putExtra(Intent.EXTRA_EMAIL, toEmailAddresses.toTypedArray())
-                subject?.let {
-                    putExtra(Intent.EXTRA_SUBJECT, it)
+                putExtra(Intent.EXTRA_SUBJECT, subject.orEmpty())
+                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
+                selector = Intent(Intent.ACTION_SENDTO).apply {
+                    data = Uri.parse("mailto:")
                 }
             }
         )
